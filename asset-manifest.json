@@ -1,7 +1,7 @@
 {
-  "main.css": "/inktatoo/static/css/main.3df70417.chunk.css",
-  "main.js": "/inktatoo/static/js/main.c8d9e999.chunk.js",
-  "main.js.map": "/inktatoo/static/js/main.c8d9e999.chunk.js.map",
+  "main.css": "/inktatoo/static/css/main.07e89976.chunk.css",
+  "main.js": "/inktatoo/static/js/main.6a01a429.chunk.js",
+  "main.js.map": "/inktatoo/static/js/main.6a01a429.chunk.js.map",
   "static/js/1.addc2bd0.chunk.js": "/inktatoo/static/js/1.addc2bd0.chunk.js",
   "static/js/1.addc2bd0.chunk.js.map": "/inktatoo/static/js/1.addc2bd0.chunk.js.map",
   "runtime~main.js": "/inktatoo/static/js/runtime~main.59a08b28.js",
@@ -36,9 +36,9 @@
   "static/media/16.png": "/inktatoo/static/media/16.f8c0c57e.png",
   "static/media/17.png": "/inktatoo/static/media/17.c3d02f4b.png",
   "static/media/18.png": "/inktatoo/static/media/18.21124005.png",
-  "static/media/index.sass": "/inktatoo/static/media/correy.9a803066.png",
-  "static/css/main.3df70417.chunk.css.map": "/inktatoo/static/css/main.3df70417.chunk.css.map",
+  "static/media/index.sass": "/inktatoo/static/media/kat.d5a2bbda.png",
+  "static/css/main.07e89976.chunk.css.map": "/inktatoo/static/css/main.07e89976.chunk.css.map",
   "index.html": "/inktatoo/index.html",
-  "precache-manifest.e95a36869baba05a9e9ed8d67996d512.js": "/inktatoo/precache-manifest.e95a36869baba05a9e9ed8d67996d512.js",
+  "precache-manifest.bd480519e1019f9cc84ed497cd28f2d4.js": "/inktatoo/precache-manifest.bd480519e1019f9cc84ed497cd28f2d4.js",
   "service-worker.js": "/inktatoo/service-worker.js"
 }

@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/6.968f9d78.png"
   },
   {
-    "revision": "c8d9e999412864414bd9",
-    "url": "/inktatoo/static/css/main.3df70417.chunk.css"
+    "revision": "6a01a429de68c861b105",
+    "url": "/inktatoo/static/css/main.07e89976.chunk.css"
   },
   {
     "revision": "addc2bd0cf9f65db9f02",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/5.61a10396.png"
   },
   {
-    "revision": "c8d9e999412864414bd9",
-    "url": "/inktatoo/static/js/main.c8d9e999.chunk.js"
+    "revision": "6a01a429de68c861b105",
+    "url": "/inktatoo/static/js/main.6a01a429.chunk.js"
   },
   {
     "revision": "aa3fe26e4a791031e546fb39e8c50435",
@@ -148,23 +148,23 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/img_studio_bg.343ceda1.png"
   },
   {
-    "revision": "71d92eb3fb9881ecb050262fdb2cfff4",
-    "url": "/inktatoo/static/media/img_bg.71d92eb3.png"
-  },
-  {
     "revision": "4e5789fdbbc11d3d322aa9559d02f250",
     "url": "/inktatoo/static/media/team_bg.4e5789fd.png"
   },
   {
-    "revision": "d5a2bbdaf88e8ce62e189fa64a9d7113",
-    "url": "/inktatoo/static/media/kat.d5a2bbda.png"
+    "revision": "71d92eb3fb9881ecb050262fdb2cfff4",
+    "url": "/inktatoo/static/media/img_bg.71d92eb3.png"
   },
   {
     "revision": "9a803066943534d2a17fc8a2c6cf5019",
     "url": "/inktatoo/static/media/correy.9a803066.png"
   },
   {
-    "revision": "c3a8ec9e945719b925debc6c7c2a344f",
+    "revision": "d5a2bbdaf88e8ce62e189fa64a9d7113",
+    "url": "/inktatoo/static/media/kat.d5a2bbda.png"
+  },
+  {
+    "revision": "89905ea3a410c1ddcb88470ec0babc01",
     "url": "/inktatoo/index.html"
   }
 ];

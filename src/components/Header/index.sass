@@ -31,7 +31,14 @@ header
 
 @media screen and (max-width: 960px)
   header
-    height: 45vh
+    height: 55vh
+    nav
+      ul
+        li:not(:nth-child(3))
+          display: none
+        li
+          img
+            height: 25vh
 
 @media screen and (max-width: 600px)
   header

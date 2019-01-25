@@ -1,0 +1,158 @@
+.contact
+  background-color: #e7e5d0
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  .wrapper
+    width: 77.87%
+    display: flex
+    margin: 180px 0 150px 0
+    .contact-info
+      width: 60.2%
+      display: flex
+      align-items: center
+      flex-direction: column
+      h3
+        margin: 0
+        color: #010101
+        font-family: "Times New Roman PS - Bold MT"
+        font-size: 36px
+        font-weight: 400
+        text-transform: uppercase
+        padding: 18px 40px
+        border: 10px solid #121212
+        user-select: none
+      p
+        margin-top: 80px
+        width: 82%
+        text-align: center
+        font-size: 18px
+        color: #000000
+      .wrapper-info-hours
+        display: flex
+        width: 100%
+        margin-top: 52px
+        .info
+          width: 100%
+          p
+            width: 100%
+            margin: 0
+            text-align: left
+            text-transform: uppercase
+            &:first-child
+              font-weight: bold
+              margin-bottom: 20px
+            span
+              font-weight: bold
+              &:last-child
+                text-transform: capitalize
+              &:nth-child(5)
+                text-transform: none
+        .hours
+          width: 100%
+          p
+            width: 100%
+            margin: 0
+            text-align: left
+            text-transform: uppercase
+            &:first-child
+              font-weight: bold
+              margin-bottom: 20px
+            span
+              font-weight: bold
+    .form
+      margin-left: 130px
+      display: flex
+      flex-direction: column
+      width: 50%
+      input, textarea
+        border: 2px solid #000000
+        width: 86%
+        height: 40px
+        outline: none
+        background: transparent
+        color: #333333
+        font-size: 12px
+        font-weight: 700
+        line-height: 21px
+        transition: 0.4s
+        padding-left: 20px
+        &:focus
+          box-shadow: 0 0 20px #000000
+        &:nth-of-type(2)
+          margin: 60px 0    
+      textarea
+        height: 220px
+      button
+        margin-top: 40px
+        cursor: pointer
+        width: 71%
+        height: 40px
+        background-color: #9a977a
+        outline: none
+        border: none
+        color: #ffffff
+        font-size: 12px
+        line-height: 21px
+        text-transform: uppercase
+        transition: .2s
+        &:hover
+          background-color: #333229
+          transition: .2s   
+    .soc
+      margin-top: 120px
+      width: 76.11%
+
+@media screen and (max-width: 1280px)
+  .contact
+    .wrapper
+      margin: 80px 0
+      width: 90%
+      .contact-info
+        p
+          font-size: 13px 
+
+@media screen and (max-width: 960px)
+  .contact
+    .wrapper
+      margin: 80px 0
+      width: 90%
+      .contact-info
+        h3
+          border: 7px solid #121212
+          font-size: 25px
+        p
+          font-size: 11px
+      .contact-info
+        p:first-of-type
+          margin-top: 40px
+        .wrapper-info-hours
+          margin-top: 20px
+      .form
+        input:nth-of-type(2)
+          margin: 30px 0
+      .soc
+        width: 100%
+        margin-top: 85px
+
+@media screen and (max-width: 600px)
+  .contact
+    .wrapper
+      flex-direction: column
+      align-items: center
+      .contact-info
+        width: 100%
+        p:first-of-type
+          font-size: 15px
+      .soc
+        margin: 50px 0
+      .form
+        margin: 0
+        width: 95%
+        text-align: center
+
+@media screen and (max-width: 480px)
+  .contact
+    .wrapper
+      margin: 40px 0

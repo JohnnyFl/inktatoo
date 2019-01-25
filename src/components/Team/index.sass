@@ -1,0 +1,194 @@
+.members
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-areas: "team-img correy c-info" "kat k-info form"
+  .team-img
+      grid-area: team-img
+      display: flex
+      background: url('./team_bg.png') no-repeat center
+      background-size: cover
+      width: 100%
+      height: 82vh
+      justify-content: center
+      align-items: center
+      h3
+        color: #010101
+        font-family: "Times New Roman PS - Bold MT"
+        font-size: 36px
+        font-weight: 400
+        text-transform: uppercase
+        padding: 18px 40px
+        border: 10px solid #121212
+        user-select: none
+  .correy
+    grid-area: correy
+    background: url('./correy.png') no-repeat center
+    background-size: cover
+    width: 100%
+    height: 82vh
+    max-height: 500px
+  .correy-info
+    grid-area: c-info
+  .kat-info
+    grid-area: k-info
+  .correy-info, .kat-info
+    background-color: #ccc8b6
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    .correy-info-text, .kat-info-text
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 81.5%
+      h2
+        color: #000000
+        font-size: 24px
+        font-weight: 700
+        text-transform: uppercase
+      p
+        color: #000000
+        font-family: "Open Sans"
+        font-size: 14px
+        font-weight: 400
+        width: 98%
+        margin: 0 0 45px 0
+  .kat
+    grid-area: kat
+    background: url('./kat.png') no-repeat center
+    background-size: cover
+    width: 100%
+    height: 82vh
+    max-height: 500px
+  .form
+    grid-area: form
+    background: url('../About Us/bg.png')
+    display: flex
+    justify-content: center
+    align-items: center
+    .form-wrapper
+      width: 60%
+      h3
+        color: #000000
+        font-size: 14px
+        font-weight: 700
+        line-height: 18px
+        text-transform: uppercase
+        margin: 0
+      p
+        margin: 0 0 40px 0
+        color: #000000
+        width: 69.3%
+        font-size: 12px
+        font-weight: 700
+        line-height: 12px
+        text-transform: uppercase
+      input
+        border: 2px solid #000000
+        width: 93%
+        height: 40px
+        outline: none
+        background: transparent
+        color: #333333
+        font-size: 12px
+        font-weight: 700
+        line-height: 21px
+        transition: 0.4s
+        padding-left: 20px
+        &:focus
+          box-shadow: 0 0 20px #000000
+      button
+        margin-top: 20px
+        cursor: pointer
+        width: 101.5%
+        height: 40px
+        background-color: #9a977a
+        outline: none
+        border: none
+        color: #ffffff
+        font-size: 12px
+        line-height: 21px
+        text-transform: uppercase
+        transition: .2s
+        &:hover
+          background-color: #333229
+          transition: .2s
+
+.tweet
+  background: url('./img_bg.png') no-repeat center
+  background-size: cover
+  width: 100%
+  max-width: 1500px
+  height: 46vh
+  display: flex
+  justify-content: center
+  align-items: center
+  .tweet-text
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 62%
+    i
+      cursor: pointer
+      color: #ccc8b6
+      font-size: 48px
+      transition: all .2s ease-out
+      &:hover
+        transition: all .2s ease-out
+        color: #1da1f2
+    p
+      color: #f2efe5
+      font-size: 22px
+      font-weight: 500
+      font-style: italic
+      line-height: 22px
+
+@media screen and (max-width: 1280px)
+  .members
+    .team-image
+      height: 62vh
+        
+@media screen and (max-width: 960px)
+  .members
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-areas: "team-img form" "c-info correy" "kat k-info"
+    .team-img
+      h3
+        border: 7px solid #121212
+  .tweet
+    .tweet-text
+      p
+        font-size: 18px
+
+@media screen and (max-width: 600px)
+  .members
+    grid-template-columns: auto
+    grid-template-areas: "team-img" "correy" "c-info" "kat" "k-info" "form"
+    .correy-info, .kat-info, .form
+      height: 70vh
+    .team-img
+      height: 40vh
+  .tweet
+    .tweet-text
+      p
+        font-size: 15px
+
+@media screen and (max-width: 480px)
+  .members
+    .correy-info, .kat-info, .form
+      height: 80vh
+    .team-img
+      height: 40vh
+      h3
+        font-size: 25px
+    .correy, .kat
+      height: 71vh
+    .form
+      .form-wrapper
+        width: 80%
+  .tweet
+    height: 46vh
+    .tweet-text
+      width: 80%

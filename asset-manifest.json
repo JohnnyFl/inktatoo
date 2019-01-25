@@ -1,7 +1,7 @@
 {
-  "main.css": "/inktatoo/static/css/main.30c2b6ca.chunk.css",
-  "main.js": "/inktatoo/static/js/main.010867f9.chunk.js",
-  "main.js.map": "/inktatoo/static/js/main.010867f9.chunk.js.map",
+  "main.css": "/inktatoo/static/css/main.3df70417.chunk.css",
+  "main.js": "/inktatoo/static/js/main.c8d9e999.chunk.js",
+  "main.js.map": "/inktatoo/static/js/main.c8d9e999.chunk.js.map",
   "static/js/1.addc2bd0.chunk.js": "/inktatoo/static/js/1.addc2bd0.chunk.js",
   "static/js/1.addc2bd0.chunk.js.map": "/inktatoo/static/js/1.addc2bd0.chunk.js.map",
   "runtime~main.js": "/inktatoo/static/js/runtime~main.59a08b28.js",
@@ -37,8 +37,8 @@
   "static/media/17.png": "/inktatoo/static/media/17.c3d02f4b.png",
   "static/media/18.png": "/inktatoo/static/media/18.21124005.png",
   "static/media/index.sass": "/inktatoo/static/media/kat.d5a2bbda.png",
-  "static/css/main.30c2b6ca.chunk.css.map": "/inktatoo/static/css/main.30c2b6ca.chunk.css.map",
+  "static/css/main.3df70417.chunk.css.map": "/inktatoo/static/css/main.3df70417.chunk.css.map",
   "index.html": "/inktatoo/index.html",
-  "precache-manifest.23235a1a85c22a51ac45504f3dbf8e98.js": "/inktatoo/precache-manifest.23235a1a85c22a51ac45504f3dbf8e98.js",
+  "precache-manifest.f911212d65f663afaad87c7fc61d4d0b.js": "/inktatoo/precache-manifest.f911212d65f663afaad87c7fc61d4d0b.js",
   "service-worker.js": "/inktatoo/service-worker.js"
 }

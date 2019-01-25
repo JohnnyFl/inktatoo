@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/inktatoo/precache-manifest.23235a1a85c22a51ac45504f3dbf8e98.js"
+  "/inktatoo/precache-manifest.f911212d65f663afaad87c7fc61d4d0b.js"
 );
 
 workbox.clientsClaim();

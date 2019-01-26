@@ -1,6 +1,6 @@
 .gallery
   display: grid
-  grid-template-columns: repeat(5, auto)
+  grid-template-columns: repeat(5, 1fr)
   div
     font-size: 0
     position: relative
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 1280px)
   .gallery
-    grid-template-columns: repeat(4, auto)
+    grid-template-columns: repeat(4, 1fr)
     div
       .overlay
         background: none

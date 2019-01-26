@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/6.968f9d78.png"
   },
   {
-    "revision": "c135c1ee86ba3ba9895b",
-    "url": "/inktatoo/static/css/main.dd442fdd.chunk.css"
+    "revision": "071d4bf0a99a3ac9e337",
+    "url": "/inktatoo/static/css/main.0cc49081.chunk.css"
   },
   {
     "revision": "addc2bd0cf9f65db9f02",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/5.61a10396.png"
   },
   {
-    "revision": "c135c1ee86ba3ba9895b",
-    "url": "/inktatoo/static/js/main.c135c1ee.chunk.js"
+    "revision": "071d4bf0a99a3ac9e337",
+    "url": "/inktatoo/static/js/main.071d4bf0.chunk.js"
   },
   {
     "revision": "aa3fe26e4a791031e546fb39e8c50435",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/inktatoo/static/media/kat.d5a2bbda.png"
   },
   {
-    "revision": "a8d0a874b4e157d37a11d3fc59689c72",
+    "revision": "7e48d3acf3f3b6742ff3968bc55adb4d",
     "url": "/inktatoo/index.html"
   }
 ];
